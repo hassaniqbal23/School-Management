@@ -198,54 +198,54 @@ export const studentsData = [
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
-  {
-    id: 7,
-    studentId: "1234567890",
-    name: "Allen Black",
-    email: "allen@black.com",
-    photo:
-      "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    phone: "1234567890",
-    grade: 5,
-    class: "5A",
-    address: "123 Main St, Anytown, USA",
-  },
-  {
-    id: 8,
-    studentId: "1234567890",
-    name: "Ophelia Castro",
-    email: "ophelia@castro.com",
-    photo:
-      "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    phone: "1234567890",
-    grade: 5,
-    class: "5A",
-    address: "123 Main St, Anytown, USA",
-  },
-  {
-    id: 9,
-    studentId: "1234567890",
-    name: "Derek Briggs",
-    email: "derek@briggs.com",
-    photo:
-      "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    phone: "1234567890",
-    grade: 5,
-    class: "5A",
-    address: "123 Main St, Anytown, USA",
-  },
-  {
-    id: 10,
-    studentId: "1234567890",
-    name: "John Glover",
-    email: "john@glover.com",
-    photo:
-      "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    phone: "1234567890",
-    grade: 5,
-    class: "5A",
-    address: "123 Main St, Anytown, USA",
-  },
+  // {
+  //   id: 7,
+  //   studentId: "1234567890",
+  //   name: "Allen Black",
+  //   email: "allen@black.com",
+  //   photo:
+  //     "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  //   phone: "1234567890",
+  //   grade: 5,
+  //   class: "5A",
+  //   address: "123 Main St, Anytown, USA",
+  // },
+  // {
+  //   id: 8,
+  //   studentId: "1234567890",
+  //   name: "Ophelia Castro",
+  //   email: "ophelia@castro.com",
+  //   photo:
+  //     "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  //   phone: "1234567890",
+  //   grade: 5,
+  //   class: "5A",
+  //   address: "123 Main St, Anytown, USA",
+  // },
+  // {
+  //   id: 9,
+  //   studentId: "1234567890",
+  //   name: "Derek Briggs",
+  //   email: "derek@briggs.com",
+  //   photo:
+  //     "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  //   phone: "1234567890",
+  //   grade: 5,
+  //   class: "5A",
+  //   address: "123 Main St, Anytown, USA",
+  // },
+  // {
+  //   id: 10,
+  //   studentId: "1234567890",
+  //   name: "John Glover",
+  //   email: "john@glover.com",
+  //   photo:
+  //     "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  //   phone: "1234567890",
+  //   grade: 5,
+  //   class: "5A",
+  //   address: "123 Main St, Anytown, USA",
+  // },
 ];
 
 export const parentsData = [
