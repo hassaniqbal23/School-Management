@@ -17,7 +17,7 @@ const Table: React.FC<TableProps> = ({ columns, data, renderRow }) => {
     <div>
       <table className="w-full mt-4 ">
         <thead>
-          <tr className="text-sm text-left text-gray-500">
+          <tr className="text-sm text-left text-gray-500 ">
             {columns.map((col) => (
               <th key={col.accessor} className={col.className}>
                 {col.header}
