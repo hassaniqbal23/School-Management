@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const TeacherIdPage = () => {
+const StudentIdPage = () => {
   return (
     <div className="flex-1 p-4 flex flex-col gap-4 xl:flex-row">
       {/* LEFT */}
@@ -16,7 +16,7 @@ const TeacherIdPage = () => {
           <div className="bg-Sky py-6 px-4 rounded-md flex-1 flex gap-4">
             <div className="w-1/3">
               <Image
-                src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="https://images.pexels.com/photos/5414817/pexels-photo-5414817.jpeg?auto=compress&cs=tinysrgb&w=1200"
                 alt=""
                 width={144}
                 height={144}
@@ -25,7 +25,7 @@ const TeacherIdPage = () => {
             </div>
             <div className="w-2/3 flex flex-col justify-between gap-4">
               <div className="flex items-center gap-4">
-                <h1 className="text-xl font-semibold">Leonard Snyder</h1>
+                <h1 className="text-xl font-semibold">Cameron Moran</h1>
               </div>
               <p className="text-sm text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -76,8 +76,8 @@ const TeacherIdPage = () => {
                 className="w-6 h-6 "
               />
               <div className="">
-                <h2 className="text-xl font-semibold">6</h2>
-                <span className="text-sm text-gray-400">Classes</span>
+                <h2 className="text-xl font-semibold">6A</h2>
+                <span className="text-sm text-gray-400">Class</span>
               </div>
             </div>
 
@@ -90,8 +90,8 @@ const TeacherIdPage = () => {
                 className="w-6 h-6 "
               />
               <div className="">
-                <h2 className="text-xl font-semibold">2</h2>
-                <span className="text-sm text-gray-400">Branches</span>
+                <h2 className="text-xl font-semibold">6th</h2>
+                <span className="text-sm text-gray-400">Grade</span>
               </div>
             </div>
 
@@ -104,7 +104,7 @@ const TeacherIdPage = () => {
                 className="w-6 h-6 "
               />
               <div className="">
-                <h2 className="text-xl font-semibold">6</h2>
+                <h2 className="text-xl font-semibold">18</h2>
                 <span className="text-sm text-gray-400">Lessions</span>
               </div>
             </div>
@@ -113,7 +113,7 @@ const TeacherIdPage = () => {
 
         {/* BOTTOM */}
         <div className="mt-4 bg-white rounded-md p-4 h-[800px]">
-          <h2>Teacher's Schedule</h2>
+          <h1>Student&apos;s Schedule</h1>
           <BigCalendar />
         </div>
       </div>
@@ -124,19 +124,19 @@ const TeacherIdPage = () => {
           <h2 className="text-xl font-semibold">Shortcuts</h2>
           <div className="mt-4 flex gap-4 flex-wrap text-xs text-gray-500">
             <Link href="#" className="p-3 rounded-md bg-SkyLight">
-              Teacher's Students
+              Student&apos;s Lessons
             </Link>
             <Link href="#" className="p-3 rounded-md  bg-PurpleLight">
-              Teacher's Lessions
+              Student&apos;s Teachers
             </Link>
             <Link href="#" className="p-3 rounded-md bg-YellowLight">
-              Teacher's Exams
+              Student&apos;s Exams
             </Link>
             <Link href="#" className="p-3 rounded-md  bg-pink-50">
-              Teacher's Assingemnt
+              Student&apos;s Assignments
             </Link>
             <Link href="#" className="p-3 rounded-md bg-SkyLight">
-              Teacher's Classes
+              Student&apos;s Results
             </Link>
           </div>
         </div>
@@ -147,4 +147,4 @@ const TeacherIdPage = () => {
   );
 };
 
-export default TeacherIdPage;
+export default StudentIdPage;

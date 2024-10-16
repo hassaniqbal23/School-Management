@@ -1,3 +1,4 @@
+import FormModal from "@/app/components/FormModal";
 import Pagination from "@/app/components/Pagination";
 import Table from "@/app/components/Table";
 import TableSearch from "@/app/components/TableSearch";
@@ -37,16 +38,12 @@ const SubjectListPage = () => {
       <td className="hidden md:table-cell">{item.teachers.join(",")}</td>
       <td>
         <div className="flex items-center gap-2">
-          <Link href={`list/Students/${item.id}`}>
-            <button className="w-7 h-7 flex justify-center items-center rounded-full bg-Sky">
-              <Image src="/edit.png" alt="" width={16} height={16} />
-            </button>
-          </Link>
-
           {role === "admin" && (
-            <button className="w-7 h-7 flex justify-center items-center rounded-full bg-Purple">
-              <Image src="/delete.png" alt="" width={16} height={16} />
-            </button>
+            <>
+              <FormModal type="update" table="subject" data={item} />
+
+              <FormModal type="delete" table="subject" id={item.id} />
+            </>
           )}
         </div>
       </td>
@@ -67,7 +64,7 @@ const SubjectListPage = () => {
             <button className="w-8 h-8 flex items-center justify-center rounded-full bg-Yellow">
               <Image src="/sort.png" alt="" width={14} height={14} />
             </button>
-            {/* {role === "admin" && <FormModal table="teacher" type="create" />} */}
+            {role === "admin" && <FormModal table="subject" type="create" />}
           </div>
         </div>
       </div>
