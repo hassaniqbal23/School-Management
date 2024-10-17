@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
+import TeacherForms from "./forms/TeacherForms";
 
 interface FormModalProps {
   table:
@@ -44,7 +45,7 @@ const FormModal: React.FC<FormModalProps> = ({ table, type, data, id }) => {
         </button>
       </form>
     ) : (
-      "create or update"
+      <TeacherForms type="create" />
     );
   return (
     <>
